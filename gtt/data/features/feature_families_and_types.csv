@@ -1,0 +1,342 @@
+state,feature,source_category,family,type
+GTT,baseline_c_peptide_cv_pct,A,C-peptide,Pre-injection baseline
+GTT,baseline_c_peptide_max_pM,A,C-peptide,Pre-injection baseline
+GTT,baseline_c_peptide_mean_pM,A,C-peptide,Pre-injection baseline
+GTT,baseline_c_peptide_min_pM,A,C-peptide,Pre-injection baseline
+GTT,baseline_c_peptide_std_pM,A,C-peptide,Pre-injection baseline
+GTT,baseline_glucagon_cv_pct,A,Glucagon,Pre-injection baseline
+GTT,baseline_glucagon_max_pM,A,Glucagon,Pre-injection baseline
+GTT,baseline_glucagon_mean_pM,A,Glucagon,Pre-injection baseline
+GTT,baseline_glucagon_min_pM,A,Glucagon,Pre-injection baseline
+GTT,baseline_glucagon_std_pM,A,Glucagon,Pre-injection baseline
+GTT,baseline_insulin_cv_pct,A,Insulin,Pre-injection baseline
+GTT,baseline_insulin_max_pM,A,Insulin,Pre-injection baseline
+GTT,baseline_insulin_mean_pM,A,Insulin,Pre-injection baseline
+GTT,baseline_insulin_min_pM,A,Insulin,Pre-injection baseline
+GTT,baseline_insulin_std_pM,A,Insulin,Pre-injection baseline
+GTT,c_peptide_auc_total_pM_min,G,C-peptide,AUC / exposure
+GTT,c_peptide_decay_rate_pM_per_min,E,C-peptide,Peak kinetics
+GTT,c_peptide_decay_time_min,E,C-peptide,Peak kinetics
+GTT,c_peptide_first_phase_auc_pM_min,F,C-peptide,Biphasic response
+GTT,c_peptide_first_phase_dominance,F,C-peptide,Biphasic response
+GTT,c_peptide_first_phase_peak_pM,F,C-peptide,Biphasic response
+GTT,c_peptide_first_second_ratio,F,C-peptide,Biphasic response
+GTT,c_peptide_glucose_corr_pvalue,N,Hormone + glucose,Glucose-adjusted response
+GTT,c_peptide_glucose_corr_r,N,Hormone + glucose,Glucose-adjusted response
+GTT,c_peptide_glucose_corrected_auc,N,Hormone + glucose,Glucose-adjusted response
+GTT,c_peptide_incremental_auc_pM_min,G,C-peptide,AUC / exposure
+GTT,c_peptide_max_rise_rate_pM_per_min,D,C-peptide,Peak kinetics
+GTT,c_peptide_max_secretion_rate_pM_per_min,H,C-peptide,Rate / trend dynamics
+GTT,c_peptide_max_suppression_rate_pM_per_min,H,C-peptide,Rate / trend dynamics
+GTT,c_peptide_mean_absolute_rate_pM_per_min,H,C-peptide,Rate / trend dynamics
+GTT,c_peptide_net_auc_pM_min,G,C-peptide,AUC / exposure
+GTT,c_peptide_osc_freq_early_0_15min_per_hr,I,C-peptide,Oscillation patterns
+GTT,c_peptide_osc_freq_late_15_61min_per_hr,I,C-peptide,Oscillation patterns
+GTT,c_peptide_peak_absolute_change_pM,C,C-peptide,Peak dynamics
+GTT,c_peptide_peak_fold_change,C,C-peptide,Peak dynamics
+GTT,c_peptide_peak_found,C,C-peptide,Peak dynamics
+GTT,c_peptide_peak_magnitude_pM,C,C-peptide,Peak dynamics
+GTT,c_peptide_peak_prominence,C,C-peptide,Peak dynamics
+GTT,c_peptide_peak_right_censored,C,C-peptide,Peak dynamics
+GTT,c_peptide_peak_sharpness,C,C-peptide,Peak dynamics
+GTT,c_peptide_peak_time_min,C,C-peptide,Peak dynamics
+GTT,c_peptide_peak_width_min,C,C-peptide,Peak dynamics
+GTT,c_peptide_pulsatility_index,I,C-peptide,Oscillation patterns
+GTT,c_peptide_pulse_amplitude_pM,I,C-peptide,Oscillation patterns
+GTT,c_peptide_pulse_frequency_per_hour,I,C-peptide,Oscillation patterns
+GTT,c_peptide_pulse_regularity_cv_pct,I,C-peptide,Oscillation patterns
+GTT,c_peptide_rate_variability_sd,H,C-peptide,Rate / trend dynamics
+GTT,c_peptide_response_cv_pct,B,C-peptide,Basic device metrics
+GTT,c_peptide_response_max_pM,B,C-peptide,Basic device metrics
+GTT,c_peptide_response_mean_pM,B,C-peptide,Basic device metrics
+GTT,c_peptide_response_min_pM,B,C-peptide,Basic device metrics
+GTT,c_peptide_response_range_pM,B,C-peptide,Basic device metrics
+GTT,c_peptide_response_std_pM,B,C-peptide,Basic device metrics
+GTT,c_peptide_return_to_baseline,E,C-peptide,Peak kinetics
+GTT,c_peptide_rise_rate_pM_per_min,D,C-peptide,Peak kinetics
+GTT,c_peptide_rise_time_min,D,C-peptide,Peak kinetics
+GTT,c_peptide_second_phase_auc_pM_min,F,C-peptide,Biphasic response
+GTT,c_peptide_second_phase_mean_pM,F,C-peptide,Biphasic response
+GTT,c_peptide_time_to_half_recovery_min,E,C-peptide,Peak kinetics
+GTT,c_peptide_time_weighted_mean_pM,G,C-peptide,AUC / exposure
+GTT,c_peptide_trend_p_value,H,C-peptide,Rate / trend dynamics
+GTT,c_peptide_trend_r_squared,H,C-peptide,Rate / trend dynamics
+GTT,c_peptide_trend_slope_pM_per_min,H,C-peptide,Rate / trend dynamics
+GTT,corr_c_peptide_glucagon_lag_min,M,Cross-hormone,Inter-biomarker correlations
+GTT,corr_c_peptide_glucagon_pearson_r,M,Cross-hormone,Inter-biomarker correlations
+GTT,corr_c_peptide_glucagon_pvalue,M,Cross-hormone,Inter-biomarker correlations
+GTT,corr_insulin_c_peptide_lag_min,M,Cross-hormone,Inter-biomarker correlations
+GTT,corr_insulin_c_peptide_pearson_r,M,Cross-hormone,Inter-biomarker correlations
+GTT,corr_insulin_c_peptide_pvalue,M,Cross-hormone,Inter-biomarker correlations
+GTT,corr_insulin_glucagon_lag_min,M,Cross-hormone,Inter-biomarker correlations
+GTT,corr_insulin_glucagon_pearson_r,M,Cross-hormone,Inter-biomarker correlations
+GTT,corr_insulin_glucagon_pvalue,M,Cross-hormone,Inter-biomarker correlations
+GTT,cpeptide_insulin_peak_lag_min,O,Cross-hormone,Inter-biomarker correlations
+GTT,disposition_relative_si,J,Hormone + glucose,Cell-function / clinical indices
+GTT,glucagon_auc_total_pM_min,G,Glucagon,AUC / exposure
+GTT,glucagon_decay_rate_pM_per_min,E,Glucagon,Peak kinetics
+GTT,glucagon_decay_time_min,E,Glucagon,Peak kinetics
+GTT,glucagon_fasting_ref_pM,K,Glucagon,Glucagon suppression
+GTT,glucagon_glucose_corr_pvalue,N,Hormone + glucose,Glucose-adjusted response
+GTT,glucagon_glucose_corr_r,N,Hormone + glucose,Glucose-adjusted response
+GTT,glucagon_glucose_corrected_auc,N,Hormone + glucose,Glucose-adjusted response
+GTT,glucagon_incremental_auc_pM_min,G,Glucagon,AUC / exposure
+GTT,glucagon_max_rise_rate_pM_per_min,D,Glucagon,Peak kinetics
+GTT,glucagon_max_secretion_rate_pM_per_min,H,Glucagon,Rate / trend dynamics
+GTT,glucagon_max_suppression_rate_pM_per_min,H,Glucagon,Rate / trend dynamics
+GTT,glucagon_mean_absolute_rate_pM_per_min,H,Glucagon,Rate / trend dynamics
+GTT,glucagon_nadir_insulin_peak_lag_min,O,Cross-hormone,Inter-biomarker correlations
+GTT,glucagon_nadir_pM,K,Glucagon,Glucagon suppression
+GTT,glucagon_nadir_time_min,K,Glucagon,Glucagon suppression
+GTT,glucagon_net_auc_pM_min,G,Glucagon,AUC / exposure
+GTT,glucagon_osc_freq_early_0_15min_per_hr,I,Glucagon,Oscillation patterns
+GTT,glucagon_osc_freq_late_15_61min_per_hr,I,Glucagon,Oscillation patterns
+GTT,glucagon_peak_absolute_change_pM,C,Glucagon,Peak dynamics
+GTT,glucagon_peak_fold_change,C,Glucagon,Peak dynamics
+GTT,glucagon_peak_found,C,Glucagon,Peak dynamics
+GTT,glucagon_peak_magnitude_pM,C,Glucagon,Peak dynamics
+GTT,glucagon_peak_prominence,C,Glucagon,Peak dynamics
+GTT,glucagon_peak_sharpness,C,Glucagon,Peak dynamics
+GTT,glucagon_peak_time_min,C,Glucagon,Peak dynamics
+GTT,glucagon_peak_width_min,C,Glucagon,Peak dynamics
+GTT,glucagon_pulsatility_index,I,Glucagon,Oscillation patterns
+GTT,glucagon_pulse_amplitude_pM,I,Glucagon,Oscillation patterns
+GTT,glucagon_pulse_frequency_per_hour,I,Glucagon,Oscillation patterns
+GTT,glucagon_pulse_regularity_cv_pct,I,Glucagon,Oscillation patterns
+GTT,glucagon_rate_variability_sd,H,Glucagon,Rate / trend dynamics
+GTT,glucagon_rebound_ratio,K,Glucagon,Glucagon suppression
+GTT,glucagon_response_cv_pct,B,Glucagon,Basic device metrics
+GTT,glucagon_response_max_pM,B,Glucagon,Basic device metrics
+GTT,glucagon_response_mean_pM,B,Glucagon,Basic device metrics
+GTT,glucagon_response_min_pM,B,Glucagon,Basic device metrics
+GTT,glucagon_response_range_pM,B,Glucagon,Basic device metrics
+GTT,glucagon_response_std_pM,B,Glucagon,Basic device metrics
+GTT,glucagon_rise_rate_pM_per_min,D,Glucagon,Peak kinetics
+GTT,glucagon_rise_time_min,D,Glucagon,Peak kinetics
+GTT,glucagon_suppression_pct,K,Glucagon,Glucagon suppression
+GTT,glucagon_time_weighted_mean_pM,G,Glucagon,AUC / exposure
+GTT,glucagon_trend_p_value,H,Glucagon,Rate / trend dynamics
+GTT,glucagon_trend_r_squared,H,Glucagon,Rate / trend dynamics
+GTT,glucagon_trend_slope_pM_per_min,H,Glucagon,Rate / trend dynamics
+GTT,glucose_at_0min_mM,L,Glucose,Glucose context
+GTT,glucose_at_16min_mM,L,Glucose,Glucose context
+GTT,glucose_at_29min_mM,L,Glucose,Glucose context
+GTT,glucose_at_45min_mM,L,Glucose,Glucose context
+GTT,glucose_at_61min_mM,L,Glucose,Glucose context
+GTT,glucose_auc_mM_min,L,Glucose,Glucose context
+GTT,glucose_incremental_auc_mM_min,L,Glucose,Glucose context
+GTT,glucose_peak_mM,L,Glucose,Glucose context
+GTT,homa_ir,J,Hormone + glucose,Cell-function / clinical indices
+GTT,insulin_auc_total_pM_min,G,Insulin,AUC / exposure
+GTT,insulin_decay_rate_pM_per_min,E,Insulin,Peak kinetics
+GTT,insulin_decay_time_min,E,Insulin,Peak kinetics
+GTT,insulin_first_phase_auc_pM_min,F,Insulin,Biphasic response
+GTT,insulin_first_phase_dominance,F,Insulin,Biphasic response
+GTT,insulin_first_phase_peak_pM,F,Insulin,Biphasic response
+GTT,insulin_first_second_ratio,F,Insulin,Biphasic response
+GTT,insulin_glucose_corr_pvalue,N,Hormone + glucose,Glucose-adjusted response
+GTT,insulin_glucose_corr_r,N,Hormone + glucose,Glucose-adjusted response
+GTT,insulin_glucose_corrected_auc,N,Hormone + glucose,Glucose-adjusted response
+GTT,insulin_incremental_auc_pM_min,G,Insulin,AUC / exposure
+GTT,insulin_max_rise_rate_pM_per_min,D,Insulin,Peak kinetics
+GTT,insulin_max_secretion_rate_pM_per_min,H,Insulin,Rate / trend dynamics
+GTT,insulin_max_suppression_rate_pM_per_min,H,Insulin,Rate / trend dynamics
+GTT,insulin_mean_absolute_rate_pM_per_min,H,Insulin,Rate / trend dynamics
+GTT,insulin_net_auc_pM_min,G,Insulin,AUC / exposure
+GTT,insulin_osc_freq_early_0_15min_per_hr,I,Insulin,Oscillation patterns
+GTT,insulin_osc_freq_late_15_61min_per_hr,I,Insulin,Oscillation patterns
+GTT,insulin_peak_absolute_change_pM,C,Insulin,Peak dynamics
+GTT,insulin_peak_fold_change,C,Insulin,Peak dynamics
+GTT,insulin_peak_found,C,Insulin,Peak dynamics
+GTT,insulin_peak_magnitude_pM,C,Insulin,Peak dynamics
+GTT,insulin_peak_prominence,C,Insulin,Peak dynamics
+GTT,insulin_peak_right_censored,C,Insulin,Peak dynamics
+GTT,insulin_peak_sharpness,C,Insulin,Peak dynamics
+GTT,insulin_peak_time_min,C,Insulin,Peak dynamics
+GTT,insulin_peak_width_min,C,Insulin,Peak dynamics
+GTT,insulin_pulsatility_index,I,Insulin,Oscillation patterns
+GTT,insulin_pulse_amplitude_pM,I,Insulin,Oscillation patterns
+GTT,insulin_pulse_frequency_per_hour,I,Insulin,Oscillation patterns
+GTT,insulin_pulse_regularity_cv_pct,I,Insulin,Oscillation patterns
+GTT,insulin_rate_variability_sd,H,Insulin,Rate / trend dynamics
+GTT,insulin_response_cv_pct,B,Insulin,Basic device metrics
+GTT,insulin_response_max_pM,B,Insulin,Basic device metrics
+GTT,insulin_response_mean_pM,B,Insulin,Basic device metrics
+GTT,insulin_response_min_pM,B,Insulin,Basic device metrics
+GTT,insulin_response_range_pM,B,Insulin,Basic device metrics
+GTT,insulin_response_std_pM,B,Insulin,Basic device metrics
+GTT,insulin_return_to_baseline,E,Insulin,Peak kinetics
+GTT,insulin_rise_rate_pM_per_min,D,Insulin,Peak kinetics
+GTT,insulin_rise_time_min,D,Insulin,Peak kinetics
+GTT,insulin_second_phase_auc_pM_min,F,Insulin,Biphasic response
+GTT,insulin_second_phase_mean_pM,F,Insulin,Biphasic response
+GTT,insulin_time_to_half_recovery_min,E,Insulin,Peak kinetics
+GTT,insulin_time_weighted_mean_pM,G,Insulin,AUC / exposure
+GTT,insulin_trend_p_value,H,Insulin,Rate / trend dynamics
+GTT,insulin_trend_r_squared,H,Insulin,Rate / trend dynamics
+GTT,insulin_trend_slope_pM_per_min,H,Insulin,Rate / trend dynamics
+GTT,insulinogenic_index_16min_si,J,Hormone + glucose,Cell-function / clinical indices
+GTT,insulinogenic_index_29min_si,J,Hormone + glucose,Cell-function / clinical indices
+GTT,insulinogenic_index_45min_si,J,Hormone + glucose,Cell-function / clinical indices
+GTT,insulinogenic_index_61min_si,J,Hormone + glucose,Cell-function / clinical indices
+GTT,matsuda_relative_si,J,Hormone + glucose,Cell-function / clinical indices
+Fed,glucose_avg_mM,Glucose context,Glucose,Glucose context
+Fed,glucose_change_mM,Glucose context,Glucose,Glucose context
+Fed,alpha_cell_counter_regulatory_range,Cell-function summaries,Glucagon,Cell-function / clinical indices
+Fed,alpha_cell_glucose_suppression_correlation,Cell-function summaries,Hormone + glucose,Cell-function / clinical indices
+Fed,alpha_cell_insulin_glucagon_reciprocity,Cell-function summaries,Cross-hormone,Cell-function / clinical indices
+Fed,alpha_cell_regulatory_precision_cv,Cell-function summaries,Glucagon,Cell-function / clinical indices
+Fed,beta_cell_dynamic_range,Cell-function summaries,Cross-hormone,Cell-function / clinical indices
+Fed,beta_cell_glucose_responsiveness,Cell-function summaries,Hormone + glucose,Cell-function / clinical indices
+Fed,beta_cell_insulin_cpeptide_correlation,Cell-function summaries,Cross-hormone,Cell-function / clinical indices
+Fed,beta_cell_secretory_coherence,Cell-function summaries,Cross-hormone,Cell-function / clinical indices
+Fed,beta_cell_secretory_stability_cv,Cell-function summaries,Cross-hormone,Cell-function / clinical indices
+Fed,c_peptide_auc_above_baseline,AUC / exposure,C-peptide,AUC / exposure
+Fed,c_peptide_auc_glucose_corrected,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,c_peptide_auc_glucose_efficiency,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,c_peptide_auc_time_weighted_avg,AUC / exposure,C-peptide,AUC / exposure
+Fed,c_peptide_auc_total,AUC / exposure,C-peptide,AUC / exposure
+Fed,c_peptide_basic_cv_percent,Basic device signal,C-peptide,Basic device metrics
+Fed,c_peptide_basic_max_raw_pM,Basic device signal,C-peptide,Basic device metrics
+Fed,c_peptide_basic_mean_raw_pM,Basic device signal,C-peptide,Basic device metrics
+Fed,c_peptide_basic_min_raw_pM,Basic device signal,C-peptide,Basic device metrics
+Fed,c_peptide_basic_range_raw_pM,Basic device signal,C-peptide,Basic device metrics
+Fed,c_peptide_glucose_corrected_5p6,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,c_peptide_glucose_correlation,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,c_peptide_glucose_correlation_pvalue,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,c_peptide_glucose_efficiency,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,c_peptide_glucose_peak_efficiency,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,c_peptide_glucose_responsiveness,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,c_peptide_glucose_sensitivity,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,c_peptide_kinetics_mean_decline_rate,Peak kinetics,C-peptide,Peak kinetics
+Fed,c_peptide_kinetics_mean_decline_time,Peak kinetics,C-peptide,Peak kinetics
+Fed,c_peptide_kinetics_mean_rise_rate,Peak kinetics,C-peptide,Peak kinetics
+Fed,c_peptide_kinetics_mean_rise_time,Peak kinetics,C-peptide,Peak kinetics
+Fed,c_peptide_kinetics_peak_count,Peak kinetics,C-peptide,Peak kinetics
+Fed,c_peptide_kinetics_peak_frequency,Peak kinetics,C-peptide,Peak kinetics
+Fed,c_peptide_kinetics_rise_decline_ratio,Peak kinetics,C-peptide,Peak kinetics
+Fed,c_peptide_osc_frequency,Oscillation patterns,C-peptide,Oscillation patterns
+Fed,c_peptide_osc_pattern_regularity,Oscillation patterns,C-peptide,Oscillation patterns
+Fed,c_peptide_osc_rhythmicity_index,Oscillation patterns,C-peptide,Oscillation patterns
+Fed,c_peptide_osc_signal_entropy,Oscillation patterns,C-peptide,Oscillation patterns
+Fed,c_peptide_osc_temporal_stability,Oscillation patterns,C-peptide,Oscillation patterns
+Fed,c_peptide_osc_zero_crossings,Oscillation patterns,C-peptide,Oscillation patterns
+Fed,c_peptide_peak_coefficient_variation,Peak dynamics,C-peptide,Peak dynamics
+Fed,c_peptide_peak_count_above_std,Peak dynamics,C-peptide,Peak dynamics
+Fed,c_peptide_peak_dynamic_range_ratio,Peak dynamics,C-peptide,Peak dynamics
+Fed,c_peptide_peak_frequency,Peak dynamics,C-peptide,Peak dynamics
+Fed,c_peptide_peak_max_prominence,Peak dynamics,C-peptide,Peak dynamics
+Fed,c_peptide_peak_mean_width,Peak dynamics,C-peptide,Peak dynamics
+Fed,c_peptide_peak_total_excursion,Peak dynamics,C-peptide,Peak dynamics
+Fed,c_peptide_rate_max_acceleration,Rate / trend dynamics,C-peptide,Rate / trend dynamics
+Fed,c_peptide_rate_max_decrease,Rate / trend dynamics,C-peptide,Rate / trend dynamics
+Fed,c_peptide_rate_max_increase,Rate / trend dynamics,C-peptide,Rate / trend dynamics
+Fed,c_peptide_rate_mean_absolute,Rate / trend dynamics,C-peptide,Rate / trend dynamics
+Fed,c_peptide_rate_trend_r_squared,Rate / trend dynamics,C-peptide,Rate / trend dynamics
+Fed,c_peptide_rate_trend_slope,Rate / trend dynamics,C-peptide,Rate / trend dynamics
+Fed,c_peptide_rate_variability,Rate / trend dynamics,C-peptide,Rate / trend dynamics
+Fed,corr_c_peptide_glucagon,Inter-biomarker correlations,Cross-hormone,Inter-biomarker correlations
+Fed,corr_c_peptide_glucagon_max_cross,Inter-biomarker correlations,Cross-hormone,Inter-biomarker correlations
+Fed,corr_c_peptide_glucagon_optimal_lag,Inter-biomarker correlations,Cross-hormone,Inter-biomarker correlations
+Fed,corr_c_peptide_glucagon_partial,Inter-biomarker correlations,Cross-hormone,Inter-biomarker correlations
+Fed,corr_c_peptide_glucagon_pvalue,Inter-biomarker correlations,Cross-hormone,Inter-biomarker correlations
+Fed,corr_c_peptide_glucagon_significant,Inter-biomarker correlations,Cross-hormone,Inter-biomarker correlations
+Fed,corr_insulin_c_peptide,Inter-biomarker correlations,Cross-hormone,Inter-biomarker correlations
+Fed,corr_insulin_c_peptide_max_cross,Inter-biomarker correlations,Cross-hormone,Inter-biomarker correlations
+Fed,corr_insulin_c_peptide_optimal_lag,Inter-biomarker correlations,Cross-hormone,Inter-biomarker correlations
+Fed,corr_insulin_c_peptide_partial,Inter-biomarker correlations,Cross-hormone,Inter-biomarker correlations
+Fed,corr_insulin_c_peptide_pvalue,Inter-biomarker correlations,Cross-hormone,Inter-biomarker correlations
+Fed,corr_insulin_c_peptide_significant,Inter-biomarker correlations,Cross-hormone,Inter-biomarker correlations
+Fed,corr_insulin_glucagon,Inter-biomarker correlations,Cross-hormone,Inter-biomarker correlations
+Fed,corr_insulin_glucagon_max_cross,Inter-biomarker correlations,Cross-hormone,Inter-biomarker correlations
+Fed,corr_insulin_glucagon_optimal_lag,Inter-biomarker correlations,Cross-hormone,Inter-biomarker correlations
+Fed,corr_insulin_glucagon_partial,Inter-biomarker correlations,Cross-hormone,Inter-biomarker correlations
+Fed,corr_insulin_glucagon_pvalue,Inter-biomarker correlations,Cross-hormone,Inter-biomarker correlations
+Fed,glucagon_auc_above_baseline,AUC / exposure,Glucagon,AUC / exposure
+Fed,glucagon_auc_glucose_corrected,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,glucagon_auc_glucose_efficiency,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,glucagon_auc_time_weighted_avg,AUC / exposure,Glucagon,AUC / exposure
+Fed,glucagon_auc_total,AUC / exposure,Glucagon,AUC / exposure
+Fed,glucagon_basic_cv_percent,Basic device signal,Glucagon,Basic device metrics
+Fed,glucagon_basic_max_raw_pM,Basic device signal,Glucagon,Basic device metrics
+Fed,glucagon_basic_mean_raw_pM,Basic device signal,Glucagon,Basic device metrics
+Fed,glucagon_basic_min_raw_pM,Basic device signal,Glucagon,Basic device metrics
+Fed,glucagon_basic_range_raw_pM,Basic device signal,Glucagon,Basic device metrics
+Fed,glucagon_glucose_corrected_5p6,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,glucagon_glucose_correlation,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,glucagon_glucose_correlation_pvalue,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,glucagon_glucose_efficiency,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,glucagon_glucose_peak_efficiency,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,glucagon_glucose_responsiveness,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,glucagon_glucose_sensitivity,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,glucagon_kinetics_mean_decline_rate,Peak kinetics,Glucagon,Peak kinetics
+Fed,glucagon_kinetics_mean_decline_time,Peak kinetics,Glucagon,Peak kinetics
+Fed,glucagon_kinetics_mean_rise_rate,Peak kinetics,Glucagon,Peak kinetics
+Fed,glucagon_kinetics_mean_rise_time,Peak kinetics,Glucagon,Peak kinetics
+Fed,glucagon_kinetics_peak_count,Peak kinetics,Glucagon,Peak kinetics
+Fed,glucagon_kinetics_peak_frequency,Peak kinetics,Glucagon,Peak kinetics
+Fed,glucagon_kinetics_rise_decline_ratio,Peak kinetics,Glucagon,Peak kinetics
+Fed,glucagon_osc_frequency,Oscillation patterns,Glucagon,Oscillation patterns
+Fed,glucagon_osc_pattern_regularity,Oscillation patterns,Glucagon,Oscillation patterns
+Fed,glucagon_osc_rhythmicity_index,Oscillation patterns,Glucagon,Oscillation patterns
+Fed,glucagon_osc_signal_entropy,Oscillation patterns,Glucagon,Oscillation patterns
+Fed,glucagon_osc_temporal_stability,Oscillation patterns,Glucagon,Oscillation patterns
+Fed,glucagon_osc_zero_crossings,Oscillation patterns,Glucagon,Oscillation patterns
+Fed,glucagon_peak_coefficient_variation,Peak dynamics,Glucagon,Peak dynamics
+Fed,glucagon_peak_count_above_std,Peak dynamics,Glucagon,Peak dynamics
+Fed,glucagon_peak_dynamic_range_ratio,Peak dynamics,Glucagon,Peak dynamics
+Fed,glucagon_peak_frequency,Peak dynamics,Glucagon,Peak dynamics
+Fed,glucagon_peak_max_prominence,Peak dynamics,Glucagon,Peak dynamics
+Fed,glucagon_peak_mean_width,Peak dynamics,Glucagon,Peak dynamics
+Fed,glucagon_peak_total_excursion,Peak dynamics,Glucagon,Peak dynamics
+Fed,glucagon_rate_max_acceleration,Rate / trend dynamics,Glucagon,Rate / trend dynamics
+Fed,glucagon_rate_max_decrease,Rate / trend dynamics,Glucagon,Rate / trend dynamics
+Fed,glucagon_rate_max_increase,Rate / trend dynamics,Glucagon,Rate / trend dynamics
+Fed,glucagon_rate_mean_absolute,Rate / trend dynamics,Glucagon,Rate / trend dynamics
+Fed,glucagon_rate_trend_r_squared,Rate / trend dynamics,Glucagon,Rate / trend dynamics
+Fed,glucagon_rate_trend_slope,Rate / trend dynamics,Glucagon,Rate / trend dynamics
+Fed,glucagon_rate_variability,Rate / trend dynamics,Glucagon,Rate / trend dynamics
+Fed,insulin_auc_above_baseline,AUC / exposure,Insulin,AUC / exposure
+Fed,insulin_auc_glucose_corrected,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,insulin_auc_glucose_efficiency,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,insulin_auc_time_weighted_avg,AUC / exposure,Insulin,AUC / exposure
+Fed,insulin_auc_total,AUC / exposure,Insulin,AUC / exposure
+Fed,insulin_basic_cv_percent,Basic device signal,Insulin,Basic device metrics
+Fed,insulin_basic_max_raw_pM,Basic device signal,Insulin,Basic device metrics
+Fed,insulin_basic_mean_raw_pM,Basic device signal,Insulin,Basic device metrics
+Fed,insulin_basic_min_raw_pM,Basic device signal,Insulin,Basic device metrics
+Fed,insulin_basic_range_raw_pM,Basic device signal,Insulin,Basic device metrics
+Fed,insulin_glucose_corrected_5p6,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,insulin_glucose_correlation,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,insulin_glucose_correlation_pvalue,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,insulin_glucose_efficiency,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,insulin_glucose_peak_efficiency,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,insulin_glucose_responsiveness,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,insulin_glucose_sensitivity,Glucose-adjusted response,Hormone + glucose,Glucose-adjusted response
+Fed,insulin_kinetics_mean_decline_rate,Peak kinetics,Insulin,Peak kinetics
+Fed,insulin_kinetics_mean_decline_time,Peak kinetics,Insulin,Peak kinetics
+Fed,insulin_kinetics_mean_rise_rate,Peak kinetics,Insulin,Peak kinetics
+Fed,insulin_kinetics_mean_rise_time,Peak kinetics,Insulin,Peak kinetics
+Fed,insulin_kinetics_peak_count,Peak kinetics,Insulin,Peak kinetics
+Fed,insulin_kinetics_peak_frequency,Peak kinetics,Insulin,Peak kinetics
+Fed,insulin_kinetics_rise_decline_ratio,Peak kinetics,Insulin,Peak kinetics
+Fed,insulin_osc_frequency,Oscillation patterns,Insulin,Oscillation patterns
+Fed,insulin_osc_pattern_regularity,Oscillation patterns,Insulin,Oscillation patterns
+Fed,insulin_osc_rhythmicity_index,Oscillation patterns,Insulin,Oscillation patterns
+Fed,insulin_osc_signal_entropy,Oscillation patterns,Insulin,Oscillation patterns
+Fed,insulin_osc_temporal_stability,Oscillation patterns,Insulin,Oscillation patterns
+Fed,insulin_osc_zero_crossings,Oscillation patterns,Insulin,Oscillation patterns
+Fed,insulin_peak_coefficient_variation,Peak dynamics,Insulin,Peak dynamics
+Fed,insulin_peak_count_above_std,Peak dynamics,Insulin,Peak dynamics
+Fed,insulin_peak_dynamic_range_ratio,Peak dynamics,Insulin,Peak dynamics
+Fed,insulin_peak_frequency,Peak dynamics,Insulin,Peak dynamics
+Fed,insulin_peak_max_prominence,Peak dynamics,Insulin,Peak dynamics
+Fed,insulin_peak_mean_width,Peak dynamics,Insulin,Peak dynamics
+Fed,insulin_peak_total_excursion,Peak dynamics,Insulin,Peak dynamics
+Fed,insulin_rate_max_acceleration,Rate / trend dynamics,Insulin,Rate / trend dynamics
+Fed,insulin_rate_max_decrease,Rate / trend dynamics,Insulin,Rate / trend dynamics
+Fed,insulin_rate_max_increase,Rate / trend dynamics,Insulin,Rate / trend dynamics
+Fed,insulin_rate_mean_absolute,Rate / trend dynamics,Insulin,Rate / trend dynamics
+Fed,insulin_rate_trend_r_squared,Rate / trend dynamics,Insulin,Rate / trend dynamics
+Fed,insulin_rate_trend_slope,Rate / trend dynamics,Insulin,Rate / trend dynamics
+Fed,insulin_rate_variability,Rate / trend dynamics,Insulin,Rate / trend dynamics

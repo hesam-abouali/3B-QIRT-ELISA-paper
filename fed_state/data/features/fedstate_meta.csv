@@ -1,0 +1,10 @@
+animal_id,rat_type,overall_function_score,function_classification,has_elisa
+Rat1,healthy,50.316499511014456,Moderate function,1
+Rat2,healthy,39.39252120745043,Impaired function,1
+Rat3,healthy,44.79105459184055,Impaired function,1
+Rat4,pre-diabetic,60.63458063982649,Moderate function,1
+Rat5,pre-diabetic,65.71414317223991,Good function,1
+Rat6,pre-diabetic,68.53883508273815,Good function,1
+Rat7,diabetic,36.91469753566501,Impaired function,1
+Rat8,diabetic,44.55325819569897,Impaired function,1
+Rat9,diabetic,45.78638592438053,Impaired function,1

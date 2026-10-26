@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and macOS
+.idea/
+.vscode/
+pyrightconfig.json
+.DS_Store
+
+# Written by the scripts
+outputs/
